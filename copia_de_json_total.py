@@ -42,4 +42,4 @@ import pandas as pd
 df=pd.DataFrame(ph_udea)
 df
 
-js = df.to_json('/content/drive/MyDrive/json/OpenAlex Cosmology.json', orient = 'columns')
+js = df.to_json('/content/drive/MyDrive/json/OpenAlex Cosmology.json', orient = 'records')
